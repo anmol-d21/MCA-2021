@@ -6,4 +6,4 @@ I uploaded the pdf to musescore, unfortunetely the score was unsuccessful and co
 
 
 ## Week 3
-[GitHub](http://github.com) <- thiw iw how to add a link. do this with the verovio file after finishing
+[GitHub](http://github.com) <- this is how to add a link. do this with the verovio file after finishing

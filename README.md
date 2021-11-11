@@ -17,5 +17,5 @@ I uploaded the pdf to musescore, unfortunetely the score was unsuccessful and co
 
 ## Week 8
 
-# Spectogram of the sorcerers apprentice 
+
 ![spectogram of track one](track-one-sorcerers-apprentice.png)

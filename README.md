@@ -6,6 +6,7 @@ I uploaded the pdf to musescore, unfortunetely the score was unsuccessful and co
 
 ## Week 2
 upload musescore file
+Accesss the Musescore file [here](sonata-pauldukas-legit.mscz)
 
 ## Week 3
 [GitHub](http://github.com) <- this is how to add a link. do this with the verovio file after finishing

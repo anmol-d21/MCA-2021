@@ -13,6 +13,11 @@ Accesss the Musescore file [here](sonata-pauldukas-legit.mscz)
 
 ## Week 4
 upload excel file onto here and the image files
+![Histogram](histogram.png)
+![Scatter-plot](scatter-plot.png)
+![Note Quarter Length Graph](note-quarter-length-graph.png)
+
+Access the excel file [here](sonata-pauldukas-legit-features.csv)
 
 ## Week 5
 

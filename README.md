@@ -7,6 +7,7 @@ He was very critical of his work and destroyed many of his projects. This in par
 Descriptive data: On IMSLP, descriptive data about each piece of music is shown at the bottom of the screen. For example it describes when the piece was composed, how many movements there are within it, the average duration of the piece and so on. The individual sections also have more data relating to who created the score/who performed the track. An exmaple can be seen below. I think there should be more though.
 
 Notated data: Almost all of his pieces are available via manuscript or computerised form. Websites such as IMSLP however it is also available to purchase from 
+
 Acoustic Data: Paul Dukas' works are easily accessible to listen to via streaming sites such as Spotify, as well as websites like IMSLP.
 
 I uploaded the pdf to musescore, unfortunetely the score was unsuccessful and corrupted so i edited the piece myself to match the PDF
@@ -35,12 +36,19 @@ Access the excel file [here](sonata-pauldukas-legit-features.csv)
 To describe the 1000-song dataset in a meaningful way, I would use these metadata elements:
 
 Song title
+
 artist
+
 composer
+
 source
+
 publisher
+
 data of publication
+
 copyright restrictions (if any)
+
 duration
 
 Access the modified MEI file [here]

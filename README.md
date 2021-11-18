@@ -27,7 +27,8 @@ const options = {
 defaultView: 'responsive', // default is 'responsive', alternative is 'document'
 defaultZoom: 3, // 0-7, default is 4
 enableResponsive: true, // default is true
-enableDocument: true // default is true}
+enableDocument: true // default is true
+}
 // A MusicXML file
 var file = 'data/sonata-pauldukas-legit.mei';
 // A MEI file

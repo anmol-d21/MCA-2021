@@ -10,7 +10,6 @@ Notated data: Almost all of his pieces are available via manuscript or computeri
 
 Acoustic Data: Paul Dukas' works are easily accessible to listen to via streaming sites such as Spotify, as well as websites like IMSLP.
 
-I uploaded the pdf to musescore, unfortunetely the score was unsuccessful and corrupted so i edited the piece myself to match the PDF
 
 ## Week 2
 

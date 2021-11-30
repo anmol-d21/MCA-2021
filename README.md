@@ -29,7 +29,7 @@ enableResponsive: true, // default is true
 enableDocument: true // default is true
 }
 // A MusicXML file
-var file = 'data/sonata-pauldukas-legit.mei';
+var file = 'data/sonata-pauldukas-week3.mei';
 // A MEI file
 //var file = 'https://www.verovio.org/editor/brahms.mei';
 const app = new Verovio.App(document.getElementById("app"), options);

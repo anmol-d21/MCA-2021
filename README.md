@@ -59,26 +59,6 @@ To describe the 1000-song dataset in a meaningful way, I would use these metadat
 
 Verovio file:
 
-<div id="app">Verovio is loading...</div>
-<script type="module">
-import 'https://www.verovio.org/javascript/app/verovio-app.js';
-const options = {
-defaultView: 'responsive', // default is 'responsive', alternative is 'document'
-defaultZoom: 3, // 0-7, default is 4
-enableResponsive: true, // default is true
-enableDocument: true // default is true
-}
-// A MusicXML file
-var file = 'data/sonata-pauldukas-week5.mei';
-// A MEI file
-//var file = 'https://www.verovio.org/editor/brahms.mei';
-const app = new Verovio.App(document.getElementById("app"), options);
-fetch(file)
-.then(function(response) {
-return response.text(); })
-.then(function(text) {
-app.loadData(text); });
-</script>
 
 Access the modified MEI file [here](data/sonata-pauldukas-week5.mei)
 

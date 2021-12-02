@@ -54,9 +54,10 @@ Access the excel file [here](sonata-pauldukas-legit-features.csv)
 
 ## Week 5
 To describe the 1000-song dataset in a meaningful way, I would use these metadata elements:
-(Physically type them out here)
-This list of variables can also be accessed here here](sonata-pauldukas-legit-features.csv)
+(Physically type them out here/take a pictures of before/after)
 
+
+Verovio file:
 
 <div id="app">Verovio is loading...</div>
 <script type="module">
@@ -97,9 +98,10 @@ However the waveform analysis
 Looking at the spectogram, it is more clear where the 
 
 ## Week 9 
+Add images
 
 ## Week 10
-
+Add images
 From the similarity matrix we can see my chosen tracks are clusted near the other 'classical' tracks. This makes sense as Paul Dukas is a classical composer.
 
 A lot of the track has been distorted. For example, the tempo has changed drastically, loads of the notes are different as well as the grace notes and articulations. It has kept the same time signature but deleted all the text surrounding the staves.

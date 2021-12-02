@@ -71,7 +71,7 @@ copyright restrictions (if any)
 
 duration
 
-Access the modified MEI file [here](sonata-pauldukas-week5.mei)
+Access the modified MEI file [here](data/sonata-pauldukas-week5.mei)
 
 ## Week 7
 

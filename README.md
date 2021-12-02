@@ -54,22 +54,9 @@ Access the excel file [here](sonata-pauldukas-legit-features.csv)
 
 ## Week 5
 To describe the 1000-song dataset in a meaningful way, I would use these metadata elements:
+(Physically type them out here)
+This list of variables can also be accessed here here](sonata-pauldukas-legit-features.csv)
 
-Song title
-
-artist
-
-composer
-
-source
-
-publisher
-
-data of publication
-
-copyright restrictions (if any)
-
-duration
 
 <div id="app">Verovio is loading...</div>
 <script type="module">

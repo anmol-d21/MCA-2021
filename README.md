@@ -19,7 +19,7 @@ Accesss the Musescore file [here](sonata-pauldukas-legit.mscz)
 
 ## Week 3
 
-<div id="app">Verovio is loading...</div>
+<div id="app3">Loading Week 3...</div>
 <script type="module">
 import 'https://www.verovio.org/javascript/app/verovio-app.js';
 const options = {
@@ -31,9 +31,9 @@ enableDocument: true // default is true
 // A MusicXML file
 var file = 'data/sonata-pauldukas-week3.mei';
 // A MEI file
-//var file = 'https://www.verovio.org/editor/brahms.mei';
-const app = new Verovio.App(document.getElementById("app"), options);
-fetch(file)
+//var file3 = 'https://www.verovio.org/editor/brahms.mei';
+const app = new Verovio.App(document.getElementById("app3"),
+options); fetch(file)
 .then(function(response) {
 return response.text(); })
 .then(function(text) {
@@ -58,6 +58,23 @@ To describe the 1000-song dataset in a meaningful way, I would use these metadat
 
 
 Verovio file:
+<div id="app5">Loading Week 5 file...</div>
+<script type="module">
+import 'https://www.verovio.org/javascript/app/verovio-app.js';
+const options = {
+defaultView: 'responsive',
+defaultZoom: 3,
+enableResponsive: true,
+enableDocument: true
+}
+var file5 = 'data/sonata-pauldukas-week5.mei';
+const app5 = new Verovio.App(document.getElementById("app5"), options);
+fetch(file5)
+.then(function(response) {
+return response.text(); })
+.then(function(text) {
+app5.loadData(text); });
+</script>
 
 
 Access the modified MEI file [here](data/sonata-pauldukas-week5.mei)

@@ -19,26 +19,24 @@ Accesss the Musescore file [here](sonata-pauldukas-legit.mscz)
 
 ## Week 3
 
-<div id="app3">Loading Week 3...</div>
+<div id="app3">Loading Week 3 file...</div>
 <script type="module">
 import 'https://www.verovio.org/javascript/app/verovio-app.js';
 const options = {
-defaultView: 'responsive', // default is 'responsive', alternative is 'document'
-defaultZoom: 3, // 0-7, default is 4
-enableResponsive: true, // default is true
-enableDocument: true // default is true
+defaultView: 'responsive',
+defaultZoom: 3,
+enableResponsive: true,
+enableDocument: true
 }
-// A MusicXML file
-var file = 'data/sonata-pauldukas-week3.mei';
-// A MEI file
-//var file3 = 'https://www.verovio.org/editor/brahms.mei';
-const app = new Verovio.App(document.getElementById("app3"),
-options); fetch(file)
+var file3 = 'data/sonata-pauldukas-week3.mei';
+const app3 = new Verovio.App(document.getElementById("app3"),
+options); fetch(file3)
 .then(function(response) {
 return response.text(); })
 .then(function(text) {
-app.loadData(text); });
+app3.loadData(text); });
 </script>
+
 
 Upload MEI file [here](https://anmol-d21.github.io/MCA-2021/verovio.html)
 

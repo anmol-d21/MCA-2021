@@ -96,6 +96,11 @@ Access the modified MEI file [here](data/sonata-pauldukas-week5.mei)
 
 ## Week 7
 
+As I had added the copyright restrictions in week 5, I only added the genre classification to my revised MEI file as well as double-checking to make sure my previous added metadata was fine.
+
+Access the modified MEI file [here](data/sonata-pauldukas-week7.mei)
+
+
 ## Week 8
 
 ![spectogram of track one](track-one-sorcerers-apprentice.png)

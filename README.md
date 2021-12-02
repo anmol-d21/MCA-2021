@@ -60,7 +60,7 @@ Verovio file:
 <script type="module">
 import 'https://www.verovio.org/javascript/app/verovio-app.js';
 const options = {
-defaultView: 'responsive',
+defaultView: 'responsive', // default is 'responsive', alternative is 'document'
 defaultZoom: 3,
 enableResponsive: true,
 enableDocument: true

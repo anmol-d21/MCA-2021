@@ -38,7 +38,7 @@ app3.loadData(text); });
 </script>
 
 
-Upload MEI file [here](https://anmol-d21.github.io/MCA-2021/verovio.html)
+If Verovio does not show the MEI file, it can also be accessed [here](https://anmol-d21.github.io/MCA-2021/verovio.html)
 
 ## Week 4
 The features I believe are interesting for my piece after generating a jSymbolic analysis are:

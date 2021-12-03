@@ -2,68 +2,60 @@
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title>Sonata</title>
-			<tite type="substitle">
-			<composer xml:id="composer1"> Paul Dukas </composer>
-			<respStmt>
-             <resp> Encoded by </resp>
-			 <resp> Anmol Dhanda </resp>
-            </respStmt>
-         </titleStmt>
-		 
-		 <editionStmt>
-		 </editionStmt>
-		 
-		 <extent unit=”Mbytes”>4532</extent>
-         
-		 <pubStmt>
-		    <date isodate="2021-11-09" type="encoding-date">2021-11-09</date>
-		    <publisher>
-               <corpName> University of Glasgow, Digital Media & Information studies </corpname>
-		       <address>
-		          <addrLine>
-		          <geogName>Glasgow</geogName>
-		           </addrLine>
-			   </address>
-		       <name> Anmol Dhanda </name>
-		 
-		    <availability>
-		    <useRestrict auth.uri=”https://creativecommons.org/licenses/by-nc-sa/4.0/” auth=”Creative Commons”>
-		     Creative Commons Attribution 4.0 International,CC BY-NC-SA</useRestrict>
-		    </availability>
-         </pubStmt>
-      
-        <seriesStmt>
-		   <title>Music Curation and Analytics Encoded Music Collection</title>   
-		   <editor>Anmol Dhanda</editor>   
-		   <identifier>MCA-2021</identifier>   
-		   <contents>      
-		      <p>Paul Dukas - Piano Sonata</p>
-		   </contents>
-		</seriesStmt>
-   	  
-	    <notesStmt>
-		</notesStmt>
-    </fileDesc>
-      
-	  <encodingDesc xml:id="encodingdesc-dydww3">
-         <appInfo xml:id="appinfo-qydpsu">
-            <application xml:id="application-ndmfof" isodate="2021-11-09T14:45:26" version="3.7.0-dev-badf0cd">
-               <name xml:id="name-98c1u7">Verovio</name>
-               <p xml:id="p-rz0ms4">Transcoded from MusicXML</p>
-            </application>
-         </appInfo>	  
-	  </encodingDesc>
-   
-   <workList>
-   <classification>
-    <genre>Classical</genre>
-   </workList>
-   </meiHead>
-   
+
+<meiHead>
+  <fileDesc>
+    <titleStmt>
+      <title>Sonata</title>
+      <title type="subtitle">
+        <composer xml:id="composer1">Paul Dukas</composer>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <resp>Anmol Dhanda</resp>
+        </respStmt>
+      </title>
+    </titleStmt>
+    <editionStmt></editionStmt>
+    <extent unit="Kbytes">4532</extent>
+    <pubStmt>
+      <date isodate="2021-11-09" type="encoding-date">2021-11-09</date>
+        <publisher>
+        <corpName>University of Glasgow, Digital Media &amp; Information studies</corpname>
+        <address>
+          <addrLine>
+            <geogName>Glasgow</geogName>
+          </addrLine>
+        </address>
+        <name>Anmol Dhanda</name>
+      </publisher>
+      <availability>
+        <useRestrict auth.uri="https://creativecommons.org/licenses/by-nc-sa/4.0/" auth="Creative Commons">
+          Creative Commons Attribution 4.0 International,CC BY-NC-SA</useRestrict>
+        </useRestrict>
+      </availability>
+    </pubStmt>
+    <seriesStmt>
+      <title>Music Curation and Analytics Encoded Music Collection</title>  
+      <editor>Anmol Dhanda</editor>  
+      <identifier>MCA-2021</identifier>  
+      <contents>      
+        <p>Paul Dukas - Piano Sonata</p>
+      </contents>
+    </seriesStmt>
+    <notesStmt>
+    </notesStmt>
+  </fileDesc>  
+  <encodingDesc xml:id="encodingdesc-dydww3">
+    <appInfo xml:id="appinfo-qydpsu">
+      <application xml:id="application-ndmfof" isodate="2021-11-09T14:45:26" version="3.7.0-dev-badf0cd">
+        <name xml:id="name-98c1u7">Verovio</name>
+        <p xml:id="p-rz0ms4">Transcoded from MusicXML</p>
+      </application>
+    </appInfo>    
+  </encodingDesc>
+  <workList>
+  </workList>
+</meiHead> 
    
    <music>
       <body>

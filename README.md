@@ -53,7 +53,7 @@ Access the excel file [here](sonata-pauldukas-legit-features.csv)
 ## Week 5
 To describe the 1000-song dataset in a meaningful way, I would use these metadata elements:
 (Physically type them out here/take a pictures of before/after)
-
+Also add screenshots of week 3 and week 5 (located in the week 5 folder)
 
 Verovio file:
 <div id="app5">Loading Week 5 file...</div>
@@ -83,6 +83,24 @@ As I had added the copyright restrictions in week 5, I only added the genre clas
 
 Access the modified MEI file [here](data/sonata-pauldukas-week7.mei)
 
+Verovio file:
+<div id="app7">Loading Week 7 file...</div>
+<script type="module">
+import 'https://www.verovio.org/javascript/app/verovio-app.js';
+const options = {
+defaultView: 'responsive', // default is 'responsive', alternative is 'document'
+defaultZoom: 3,
+enableResponsive: true,
+enableDocument: true
+}
+var file7 = 'data/sonata-pauldukas-week7.mei';
+const app7 = new Verovio.App(document.getElementById("app7"), options);
+fetch(file5)
+.then(function(response) {
+return response.text(); })
+.then(function(text) {
+app7.loadData(text); });
+</script>
 
 ## Week 8
 

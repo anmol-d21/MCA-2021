@@ -1,4 +1,4 @@
-# MCA
+
 
 ## Week 1 
 The theme for my dataset is the French composer Paul Dukas. Paul Dukas was known for his orchestral piece 'L'apprenti sorcier', with other works including 'Sonata in E-flat minor', 'Symphony in C' etc. His compositions were influenced by composers such as Beethoven, Berlioz, Franck, d'Indy and Debussy.
@@ -10,6 +10,7 @@ Notated data: Almost all of his pieces are available via manuscript or computeri
 
 Acoustic Data: Paul Dukas' works are easily accessible to listen to via streaming sites such as Spotify, as well as websites like IMSLP.
 
+The rest of rhe weeks are accessible [here](https://anmol-d21.github.io/MCA-2021/index.html)
 
 ## Week 2
 

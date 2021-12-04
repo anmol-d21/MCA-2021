@@ -20,7 +20,7 @@
     <pubStmt>
       <date isodate="2021-11-09" type="encoding-date">2021-11-09</date>
         <publisher>
-        <corpName>University of Glasgow, Digital Media &amp; Information studies</corpname>
+        <corpName>University of Glasgow, Digital Media &amp; Information studies</corpName>
         <address>
           <addrLine>
             <geogName>Glasgow</geogName>
@@ -30,7 +30,7 @@
       </publisher>
       <availability>
         <useRestrict auth.uri="https://creativecommons.org/licenses/by-nc-sa/4.0/" auth="Creative Commons">
-          Creative Commons Attribution 4.0 International,CC BY-NC-SA</useRestrict>
+          Creative Commons Attribution 4.0 International,CC BY-NC-SA
         </useRestrict>
       </availability>
     </pubStmt>

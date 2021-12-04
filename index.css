@@ -23,7 +23,7 @@ margin-right: 2px;
 border: 1px solid gray;
 border-bottom: none;
 
-background-color:#568a8f;
+background-color:#e2d7d7;
 }
 
 
@@ -38,7 +38,7 @@ color: black;
 }
 
 .basictab li a:active{
-color: #FFFFFF;
+color: #e2d7d7;
 }
 
 .basictab li.selected a{ /*selected tab effect*/
@@ -50,30 +50,3 @@ color: black;
 }
 
 
-.submenustyle{
-padding: 2px 1px;
-border: 1px solid black;
-border-top-width: 0;
-width: auto;
-display: none;
-filter:alpha(opacity=0);
--moz-opacity:0;
-text-align: center;
-background-color:#568a8f;
-color: #FFFFFF;
-}
-
-* html .submenustyle{ /*IE only width definition*/
-width: 100%;
-}
-
-.submenustyle a{
-border-right: 1px dashed black;
-padding: 1px 5px;
-text-decoration: none;
-
-}
-
-.submenustyle a:hover{
-background-color: #ebffff;
-}

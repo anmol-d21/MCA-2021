@@ -1,4 +1,3 @@
-HTMLLLL 
 <!DOCTYPE html>
 <html>
 
@@ -12,7 +11,7 @@ HTMLLLL
     <div class="nav">
       <ul>
         <li class="home"><a class="active" href="#">Home</a></li>
-        <li class="week1"><a href="/week_2/week2.html">Week 2</a></li>
+        <li class="week1"><a href="../week_2/week2.html">Week 2</a></li>
         <li class="week2"><a href="#">Week 3</a></li>
         <li class="week3"><a href="#">Week 4</a></li>
         <li class="week4"><a href="#">Week 5</a></li>
@@ -27,74 +26,3 @@ HTMLLLL
 
 </body>
 </html>
-
-
-CSS
-
-body {
-  margin: 0;
-  padding: 0;
-  background: #ccc;
-}
- 
-.nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-.nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
-}
- 
-.nav a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
-}
- 
-.nav a:hover {
-  background-color: #005f5f;
-}
- 
-.nav a.active {
-  background-color: #fff;
-  color: #444;
-  cursor: default;
-}
- 
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
- 
-  /* Option 1 - Display Inline */
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
- 
-  /* Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
-  */
-}

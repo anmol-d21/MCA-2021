@@ -86,7 +86,8 @@ Access the modified MEI file [here](data/sonata-pauldukas-week7.mei)
 
 ## Week 8
 
-Add images
+Add images ![waveform](/week_8/teddy_marge_waveform.png)
+
 Time-frequency analysis allows for a better tool to extract information of the piece of music. From the spectogram, we can see and understand approxiamately what notes are being played as it relates to the frequency. 
 However the waveform analysis
 

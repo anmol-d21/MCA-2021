@@ -22,27 +22,29 @@
       </ul>
     </div>
   </header>
+To describe the 1000-song dataset in a meaningful way, I would use these metadata elements:
+(Physically type them out here/take a pictures of before/after)
+Also add screenshots of week 3 and week 5 (located in the week 5 folder)
+
+Verovio file:
   
-<div id="app3">Loading Week 3 file...</div>
+<div id="app5">Loading Week 5 file...</div>
 <script type="module">
 import 'https://www.verovio.org/javascript/app/verovio-app.js';
 const options = {
-defaultView: 'responsive',
+defaultView: 'responsive', // default is 'responsive', alternative is 'document'
 defaultZoom: 3,
 enableResponsive: true,
 enableDocument: true
 }
-var file3 = '../data/sonata-pauldukas-week3.mei';
-const app3 = new Verovio.App(document.getElementById("app3"),
-options); fetch(file3)
+var file5 = 'data/sonata-pauldukas-week5.mei';
+const app5 = new Verovio.App(document.getElementById("app5"), options);
+fetch(file5)
 .then(function(response) {
 return response.text(); })
 .then(function(text) {
-app3.loadData(text); });
+app5.loadData(text); });
 </script>
-
-
-If Verovio does not show the MEI file, it can also be accessed [here](https://anmol-d21.github.io/MCA-2021/verovio.html)
 
 </body>
 </html>

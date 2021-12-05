@@ -22,6 +22,26 @@
       </ul>
     </div>
   </header>
-  <p> fsfsdfdsd</p>
+<div id="app3">Loading Week 3 file...</div>
+<script type="module">
+import 'https://www.verovio.org/javascript/app/verovio-app.js';
+const options = {
+defaultView: 'responsive',
+defaultZoom: 3,
+enableResponsive: true,
+enableDocument: true
+}
+var file3 = 'data/sonata-pauldukas-week3.mei';
+const app3 = new Verovio.App(document.getElementById("app3"),
+options); fetch(file3)
+.then(function(response) {
+return response.text(); })
+.then(function(text) {
+app3.loadData(text); });
+</script>
+
+
+If Verovio does not show the MEI file, it can also be accessed [here](https://anmol-d21.github.io/MCA-2021/verovio.html)
+
 </body>
 </html>

@@ -55,7 +55,7 @@ app7.loadData(text); });
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5("../data/sonata-pauldukas-week.mei", function(data) {
+    CETEI4MEI.getHTML5("../data/sonata-pauldukas-week7.mei", function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -69,7 +69,7 @@ app7.loadData(text); });
         scale: 50,
         adjustPageHeight: true
     })
-    fetch("../data/sonata-pauldukas-week.mei").then(function( response ) {
+    fetch("../data/sonata-pauldukas-week7.mei").then(function( response ) {
         response.text().then(function( data ) {
           var svg = vrvToolkit.renderData(data, {})
           document.getElementById('MEI').innerHTML = svg

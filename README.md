@@ -10,7 +10,7 @@ Notated data: Almost all of his pieces are available via manuscript or computeri
 
 Acoustic Data: Paul Dukas' works are easily accessible to listen to via streaming sites such as Spotify, as well as websites like IMSLP.
 
-The rest of rhe weeks are accessible [here](https://anmol-d21.github.io/MCA-2021/index.html)
+The rest of the weeks are accessible [here](https://anmol-d21.github.io/MCA-2021/week_1/week1.html)
 
 ## Week 2
 

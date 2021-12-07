@@ -4,6 +4,7 @@ body {
    background: #ccc;
  }
 
+h1 {text-align: center;}
 
  .nav ul {
    list-style: none;

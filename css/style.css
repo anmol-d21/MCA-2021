@@ -6,7 +6,7 @@ body {
 
 h1 {text-align: center;}
 
-.content { max-width: 975px;
+.content { max-width: 100px;
   margin: auto; 
   text-align: center;
   font: 15px Verdana; }

@@ -1,10 +1,15 @@
 /* Add your own CSS rules here */
+h1 { font-weight:bold;
+     text-align: center;  
+}
+
 
 
 body {
   margin: 0;
   padding: 0;
   background: #ccc;
+  font: 15px Verdana;
 }
  
 .nav ul {

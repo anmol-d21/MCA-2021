@@ -5,6 +5,11 @@ body {
  }
 
 
+ #content { max-width: 975px;
+  margin: auto; 
+  text-align: center;
+  font: 15px Verdana; }
+
  .nav ul {
    list-style: none;
    background-color: #444;
@@ -66,8 +71,3 @@ body {
    }
    */
  }
-
- #content{ max-width: 975px;
-  margin: auto; 
-  text-align: center;
-  font: 15px Verdana; }

@@ -3,11 +3,9 @@ h1 { font-weight:bold;
      text-align: center;  
 }
 
-
 body {
   background: #ccc;
   font: 15px Verdana;
-   max-width: 975px;
   text-align: center
 }
  

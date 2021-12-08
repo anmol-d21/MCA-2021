@@ -15,7 +15,6 @@ h2 {text-align: center;}
    max-width:50%;
    max-height:50%;
 }
-
  .nav ul {
    list-style: none;
    background-color: #E7BB8F;
@@ -77,3 +76,10 @@ h2 {text-align: center;}
    }
    */
  }
+  .tracktask, tr, td {
+   	border-collapse: collapse;
+   	font-size: 14px;
+	  color: #E7BB8F;
+   }
+   
+

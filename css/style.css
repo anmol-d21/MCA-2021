@@ -22,6 +22,11 @@ h3 {text-align: center;}
 
 #matrix{float:right;}
 
+.images {width: 100%;
+	text-align:center; }
+	  
+.images>td {width:33%;}
+
  .nav ul {
    list-style: none;
    background-color: #E7BB8F;

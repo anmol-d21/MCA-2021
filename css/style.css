@@ -20,19 +20,9 @@ h3 {text-align: center;}
  width:300px;
  height:auto} 
 
-.week10-1 {display:block;
-	margin:auto;
-	max-width:35%;
-	max-height:35%;
-	border:1px solid black;
-}
+.week10-1 {float: none; margin: 0 auto; width: 768px; text-align:center;}
 
-.week10-2 {display:block;
-	margin:auto;
-	max-width:35%;
-	max-height:35%;
-	border:1px solid black;
-}
+.week10-2 {float: none; margin: 0 auto; width: 768px; text-align:center;}
 	
 	
 #matrix{float:right;}

@@ -105,5 +105,5 @@ border: 1px solid black}
 .tracktask {table-layout: fixed ;
   width: 100% ;}
 
-.tracktask, td {height: 20px; width: 25% ;}
+.tracktask, td {height: 20px; width: 25% ; overflow: hidden}
 

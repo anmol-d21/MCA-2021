@@ -20,11 +20,10 @@ h3 {text-align: center;}
  width:300px;
  height:auto} 
 
-#week10 {max-width:35%;max-height:35%;border:1px solid black;
-margin-top:0;
-margin-right:auto;
-margin-bottom:0;
-margin-left:auto;}
+#week10 {display: block;
+margin:auto;
+max-width:35%;max-height:35%;border:1px solid black;
+}
 
 #matrix{float:right;}
 

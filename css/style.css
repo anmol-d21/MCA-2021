@@ -106,5 +106,6 @@ border: 1px solid black}
   width: 100% ;
 line-height: 1.5;}
 
-.tracktask, td {width: 25% ;}
+.tracktask, td {width: 25% ;
+line-height: 1.5;}
 

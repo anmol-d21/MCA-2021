@@ -103,7 +103,8 @@ border: 1px solid black}
 
 .headings { background-color:  #E7BB8F;}
 .tracktask {table-layout: fixed ;
-  width: 100% ;}
+  width: 100% ;
+height: 50px;}
 
 .tracktask, th, td {padding:10px;}
 

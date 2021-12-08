@@ -20,6 +20,8 @@ h3 {text-align: center;}
  width:300px;
  height:auto} 
 
+#matrix{float:right;}
+
  .nav ul {
    list-style: none;
    background-color: #E7BB8F;

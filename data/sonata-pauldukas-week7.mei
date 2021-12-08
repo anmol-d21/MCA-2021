@@ -10,7 +10,7 @@
         <composer xml:id="composer1">Paul Dukas</composer>
         <respStmt>
           <resp>Encoded by </resp>
-          <resp>Anmol Dhanda</resp>
+          <name>Anmol Dhanda</name>
         </respStmt>
       </title>
     </titleStmt>

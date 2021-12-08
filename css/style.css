@@ -22,6 +22,9 @@ h3 {text-align: center;}
 
 #matrix{float:right;}
 
+#histogram {width: 350px;
+	height:auto; }
+
 .images {width: 100%;
 	text-align:center; }
 	  

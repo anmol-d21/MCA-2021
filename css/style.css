@@ -76,6 +76,6 @@ h2 {text-align: center;}
    }
    */
  }
-.tracktask, th { background-color:  #E7BB8F;}
-.tracktask, tr, td [border-collapse: collapse;}   
+.headings { background-color:  #E7BB8F;}
+.tracktask [border-collapse: collapse;}   
 

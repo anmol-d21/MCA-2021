@@ -105,5 +105,9 @@ border: 1px solid black}
 .tracktask {table-layout: fixed ;
   width: 100% ;}
 
-
 .tracktask, th, td {padding:10px;}
+
+.tracktask th, td:nth-child(1) {width: 10%; font-weight: bold}       
+
+.tracktask td:nth-child(2) {width: 50%;}       
+       

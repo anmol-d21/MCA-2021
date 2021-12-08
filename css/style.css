@@ -6,7 +6,7 @@ body {
 
 h2 {text-align: center;}
 
-.content { max-width: 1250px;
+.content { max-width: 1100px;
   margin: auto; 
   text-align: center;
   font: 15px Verdana; }
@@ -76,6 +76,6 @@ h2 {text-align: center;}
    }
    */
  }
-
-.tracktask, tr, td [border-collapse: collapse;}   
 .tracktask, th { background-color:  #E7BB8F;}
+.tracktask, tr, td [border-collapse: collapse;}   
+

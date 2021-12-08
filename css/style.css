@@ -13,7 +13,7 @@ h1 {text-align: center;}
 
  .nav ul {
    list-style: none;
-   background-color: #444;
+   background-color: #E6F0FA;
    text-align: center;
    padding: 0;
    margin: 0;
@@ -38,7 +38,7 @@ h1 {text-align: center;}
  }
 
  .nav a.active {
-   background-color: #fff;
+   background-color: #faf0e6;
    color: #444;
    cursor: default;
  }

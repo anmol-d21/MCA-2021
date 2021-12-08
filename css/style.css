@@ -107,4 +107,6 @@ border: 1px solid black}
 
 .tracktask, th, td {padding:10px;}
 
+.tracktask, td {width: 25% ; overflow: hidden}
+
 .tracktask tr {height: 20px;}

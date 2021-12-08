@@ -20,6 +20,8 @@ h3 {text-align: center;}
  width:300px;
  height:auto} 
 
+#week10 {float: center;max-width:35%;max-height:35%;border:1px solid black;}
+
 #matrix{float:right;}
 
 #histogram {width: 350px;

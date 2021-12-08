@@ -25,7 +25,7 @@ h3 {text-align: center;}
 #histogram {width: 350px;
 	height:auto; }
 
-.images {width: 100%;
+.images tr, td {width: 100%;
 	font-weight: bold;
 	text-align:center;
 border: 1px solid black}

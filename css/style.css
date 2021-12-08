@@ -20,15 +20,11 @@ h3 {text-align: center;}
  width:300px;
  height:auto} 
 
-.week10-1 {display: flex;
-    justify-content: center;
-	max-width:35%;
-	max-height:35%;}
+.week10-1 {position: relative;
+text-align: center;}
 
-.week10-2 {display: flex;
-    justify-content: center;
-	max-width:35%;
-	max-height:35%;}
+.week10-2 {position: relative;
+text-align: center;}
 	
 	
 #matrix{float:right;}

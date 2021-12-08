@@ -9,7 +9,7 @@
       <title>Sonata</title>
         <composer xml:id="composer1">Paul Dukas</composer>
         <respStmt>
-          <resp>Encoded by:</resp>
+          <resp>Encoded by </resp>
           <resp>Anmol Dhanda</resp>
         </respStmt>
       </title>

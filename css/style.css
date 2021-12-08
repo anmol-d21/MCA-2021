@@ -76,8 +76,7 @@ h2 {text-align: center;}
    }
    */
  }
-.tracktask [border: 1px solid black;
-width: 50%;}   
+.tracktask [table-layout: fixed}
 
 .headings { background-color:  #E7BB8F;}
 

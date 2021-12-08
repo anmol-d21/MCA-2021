@@ -11,7 +11,7 @@ h2 {text-align: center;}
   text-align: center;
   font: 15px Verdana; }
 
-figure .pauldukas{ float:left;
+#pauldukas{ float:left;
    max-width:50%;
    max-height:50%;
 }

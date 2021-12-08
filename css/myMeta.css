@@ -14,9 +14,9 @@ mei-filedesc > mei-titlestmt > mei-respstmt {
   margin-top: 1em;
 }
 
-mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer1"]::before {
+mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
   font-weight: bold;
-  content: "Composer: ";
+  content: '\a'"Composer: ";
   white-space: pre;
 }
 

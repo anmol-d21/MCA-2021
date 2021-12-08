@@ -77,5 +77,6 @@ h2 {text-align: center;}
    */
  }
 .headings { background-color:  #E7BB8F;}
-.tracktask [border-collapse: collapse;}   
+.tracktask [border: 1px solid black;
+width: 50%;}   
 

@@ -32,6 +32,9 @@ text-align: center;}
 #histogram {width: 350px;
 	height:auto; }
 
+#images {width: 350px;
+	height:auto; }
+
 .images tr, td, th {width: 100%;
 	text-align:center;
 border: 1px solid black}

@@ -110,7 +110,18 @@ mei-pubstmt{ display:block;}
  	content: "Corporation: ";
  	font-weight: bold;}
 
-	  	
+mei-pubstmt > mei-publisher > mei-geoname{display: block;}
+	
+mei-pubstmt > mei-publisher > mei-geoname::before {
+ 	content: "Location: ";
+ 	font-weight: bold;}
+
+mei-pubstmt > mei-publisher > mei-name{display: block;}
+	
+mei-pubstmt > mei-publisher > mei-name::before {
+ 	content: "Publisher Name: ";
+ 	font-weight: bold;}	
+	
 mei-pubstmt > mei-date {
 	display:block;
 	}
@@ -158,15 +169,7 @@ content: "Name:";
 	font-weight: bold;	
 	  }
 		
-	
-mei-application > mei-name {
-	display: none;
-	  }
-	  
-mei-application > mei-project {
-	display: none;
-	  }
-	  
+
 mei-worklist > mei-title::before {
 	content: "Original Piece of Work";
 	text-transform: uppercase;
@@ -206,7 +209,7 @@ mei-worklist > mei-lyricst::before {
      </div>
    </header>
    <div class="content">
- 	  <h2>Week 7: Challenges to Music Curation:?</h2>
+ 	  <h2>Week 7: Challenges to Music Curation:////</h2>
  <p>This weeks task was to edit the metadata from Week 5's MEI file. I first added the genre element to my MEI file.
  	Since I had already inputted the copyright classifications previously, I then inspected the MEI file with the revised metafat to see for any errors.
  	<br> The MEI file can be seen below.</p>

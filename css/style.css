@@ -115,6 +115,9 @@ border: 1px solid black}
  }
 
 .headings { background-color:  #E7BB8F;}
+
+.small { background-color:  #E7BB8F; width:10%}
+
 .tracktask {table-layout: fixed ;
   width: 100% ;
 height: 50px;}

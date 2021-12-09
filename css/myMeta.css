@@ -1,148 +1,151 @@
-mei-title[type="subordinate"] {
-  font-size: 18pt;
-  font-variant-caps: small-caps;
-  margin-top: -0.5em;
-}
+mei-titlestmt::before {
+	content: "Piece Information";
+	font-weight: bold;
+	font-size: 18px;
+	display:block;
+	padding-bottom: 4px;}
+	
+mei-titlestmt{ display:block;}	
+	
+mei-titlestmt > mei-title::before {
+content: "Title: ";
+font-weight: bold;	
+ }
+    
+mei-titlestmt > mei-composer {
+	display:block;
+    }   
+	
+mei-titlestmt > mei-composer::before {
+	content: "Artist: ";
+	font-weight: bold;
+    }  
+mei-titlestmt > mei-arranger::before {
+	content: "Arrangement by: ";
+	font-weight: bold;
+    }
+mei-titlestmt > mei-respstmt > mei-resp {
+	display: none;
+    }
+mei-titlestmt >  mei-respstmt > mei-name {
+	display:block;
+	  }
+mei-titlestmt >  mei-respstmt > mei-name::before {
+	content: "Encoded by: ";
+	font-weight: bold;
+	
+    }	
+mei-extent::before {content: "File Size: ";
+		font-weight: bold;}
+	
+mei-worklist > mei-classification > mei-genre {
+	display:block; }	  	
+	
+	
+mei-worklist > mei-classification > mei-genre::before {
+	content: "Genre: ";
+	font-weight: bold;
+	  }	  
+	
+	
+mei-worklist > mei-creation > mei-date::before {
+	content: "Released:";
+	font-weight: bold;
+	  }
 
-mei-filedesc > mei-titlestmt > mei-title {
-  color: #595b66;
-  display: block;
-}
+mei-pubstmt > mei-publisher {
+	display:block;}
+	
+	
+mei-pubstmt > mei-publisher::before {
+	content: "Publishing Information";
+	font-weight: bold;
+	font-size: 18px;
+	display:block;
+	padding-bottom: 4px;
+	padding-top: 20px;}
+	
+mei-pubstmt{ display:block;}	
+	
+	
+ mei-pubstmt > mei-publisher > mei-corpname::before {
+ 	content: "Corporation: ";
+ 	font-weight: bold;}
 
-mei-filedesc > mei-titlestmt > mei-respstmt {
-  display: block;
-  margin-top: 1em;
-}
 
-mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
-  font-weight: bold;
-  content: '\a'"Composer: ";
-  white-space: pre;
-}
+mei-pubstmt > mei-publisher > mei-address > mei-addrline > mei-geogname {
+	display:block;
+	  }	
 
-mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
-  font-weight: bold;
-  content: '\a'"Encoded by: ";
-  white-space: pre;
-}
+mei-pubstmt > mei-publisher > mei-address > mei-addrline > mei-geogname::before {
+	content: "Publisher Location: ";
+ 	font-weight: bold;}	
 
-#pers12345 {
-  margin-top: 2em;
-}
+mei-pubstmt > mei-publisher > mei-name{display: block;}
+	
+mei-pubstmt > mei-publisher > mei-name::before {
+ 	content: "Publisher Name: ";
+ 	font-weight: bold;}	
+	
+mei-pubstmt > mei-date {
+	display:block;
+	}
+	  	
+mei-pubstmt > mei-date::before {
+	content:"Date Published: ";
+	font-weight: bold;}
+	  
+mei-pubstmt > mei-availability > mei-userestrict::before {
+	content: "Copyright Instructions: ";
+	font-weight: bold;}
+	  
+mei-pubstmt > mei-availability > mei-userestrict {
+	display: block;}
+	  
 
-mei-filedesc > mei-pubstmt > mei-respstmt {
-  display: none;
-}
+mei-seriesstmt::before {
+	content: "Project Information";
+	font-weight: bold;
+	font-size: 18px;
+	display:block;
+	padding-bottom: 4px;
+	padding-top: 20px;}
+	
+mei-seriesstmt{ display:block;}	
+	
+mei-seriesstmt > mei-title {display: block;}
+	
+mei-seriesstmt > mei-title::before {
+	content: "Series Title: ";
+	 font-weight: bold; }
+	  
+mei-seriesstmt > mei-editor {display:block;	
+	  }
+	
+mei-seriesstmt > mei-editor::before {
+content: "Series editor: ";
+	font-weight: bold;	
+	  }
 
-mei-pubstmt > mei-address {
-  display: none;
-}
+mei-seriesstmt > mei-identifier {display: block;
+	 }	
+	
+mei-seriesstmt > mei-identifier::before {
+content: "Identifier: ";
+	font-weight: bold;	
+	  }
 
-mei-filedesc > mei-pubstmt > mei-date::before {
-  font-weight: bold;
-  content: "Date encoded: "
-}
+mei-seriesstmt > mei-contents {display: block;
+	 }	
+	
+mei-seriesstmt > mei-contents::before {
+content: "Name: ";
+	font-weight: bold;	
+	  }
 
-mei-filedesc > mei-pubstmt > mei-date::after {
-  content: '\a \a';
-  white-space: pre;
-}
-
-mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict {
-  font-style: italic;
-  display: block;
-  margin-top: 0.5em;
-}
-
-mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::after {
-  content: '\a \a';
-  white-space: pre;
-}
-
-mei-seriesstmt {
-  display: none;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-identifier {
-  display: none;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-identifier {
-  display: none;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt::before {
-  font-weight: bold;
-  content: "Source: ";
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt {
-  display: block;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"]::before {
-  content: "(";
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"] {
-  font-style: italic;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"]::after {
-  content: ")";
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="composer"] {
-  display: none;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="dedicatee"]::before {
-  font-weight: bold;
-  content: '\a'"Dedicated to: ";
-  white-space: pre;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="editor"]::before {
-  font-weight: bold;
-  content: '\a'"Edited by: ";
-  white-space: pre;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-physdesc {
-  display: none;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-pubstmt > mei-respstmt > mei-corpname::before {
-  font-weight: bold;
-  content: "Published by: ";
-  white-space: pre;
-}
-
-mei-pubplace::before {
-  font-weight: bold;
-  content: '\a'"Publisher location: ";
-  white-space: pre;
-}
-
-/*mei-filedesc > mei-sourcedesc > mei-source > mei-pubstmt::after {
-  content: '\a'
-  white-space: pre;
-} */
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-pubstmt::after {
-  content: '\a''\a';
-  white-space: pre;
-}
-
-mei-encodingdesc {
-  display: none;
-}
-
-mei-workdesc {
-  display: none;
-}
-
-mei-revisiondesc {
-  display: none;
-}
-
+mei-appinfo > mei-application > mei-name {
+	display:none;}
+	
+mei-appinfo > mei-application > mei-p {
+	display:none;
+	  }

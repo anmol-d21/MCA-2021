@@ -32,7 +32,10 @@ text-align: center;}
 #histogram {width: 350px;
 	height:auto; }
 
-#images {width: 2000%;
+#images {width: 75%;
+	height:auto; }
+
+#split {width: 75%;
 	height:auto; }
 
 .images tr, td, th {width: 100%;

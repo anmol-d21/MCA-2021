@@ -11,7 +11,6 @@ content: "Title: ";
 font-weight: bold;	
  }
     
-
 mei-titlestmt > mei-composer {
 	display:block;
     }   
@@ -20,14 +19,17 @@ mei-titlestmt > mei-composer::before {
 	content: "Artist: ";
 	font-weight: bold;
     }  
-
 mei-titlestmt > mei-arranger::before {
 	content: "Arrangement by:";
 	font-family: Arial;
 	font-weight: bold;
     }
-
-
+mei-titlestmt > mei-respstmt > mei-resp {
+	display: none;
+    }
+mei-titlestmt >  mei-respstmt > mei-name {
+	display:block;
+	  }
 mei-titlestmt >  mei-respstmt > mei-name::before {
 	content: "Encoded by: ";
 	font-weight: bold;
@@ -59,8 +61,6 @@ mei-editionstmt > mei-title::before {
 	font-size: 12px;
 	display:block;
 	  }
-
-
 	 
 mei-editionstmt > mei-arranger::before {
 	content: "Arranger:";
@@ -90,9 +90,10 @@ mei-editionstmt > mei-respstmt > mei-name {
 mei-editionstmt > mei-date {
 	display: none;
 	  }
-
 mei-pubstmt > mei-publisher {
 	display:block;}
+	
+mei-pubstmt > mei-publisher::before {content:"";}
 	
 mei-pubstmt > mei-publisher::before {
 	content: "Publishing Information";
@@ -103,16 +104,12 @@ mei-pubstmt > mei-publisher::before {
 mei-pubstmt{ display:block;}	
 	
 
-	  
-	
-mei-pubstmt > mei-publisher > mei-corpname::before {
-	content: "Corporation: ";
-	font-weight: bold;}
 
-	
-mei-pubstmt > mei-publisher > mei-address > mei-addrline > mei-geoname::before {
-	content: "City: ";
-	font-weight: bold;}
+
+ mei-pubstmt > mei-publisher > mei-corpname::before {
+ 	content: "Corporation: ";
+ 	font-weight: bold;}
+
 	  	
 mei-pubstmt > mei-date {
 	display:block;
@@ -155,7 +152,6 @@ mei-application > mei-project {
 	display: none;
 	  }
 	  
-
 mei-worklist > mei-title::before {
 	content: "Original Piece of Work";
 	text-transform: uppercase;
@@ -166,8 +162,6 @@ mei-worklist > mei-title::before {
 mei-worklist > mei-title {
 	display: block;
 	  }
-
-
 mei-worklist > mei-lyricst {
 	display: block;
 	  }
@@ -177,8 +171,6 @@ mei-worklist > mei-lyricst::before {
 	font-family: Arial;
 	font-weight: bold;
 	  }
-
-
 </style> 
   <script src="../js/CETEI.js"></script>
 </head>
@@ -196,15 +188,14 @@ mei-worklist > mei-lyricst::before {
         <li class="week9"><a href="../week_9/week9.html">Week 9</a></li>
         <li class="week10"><a href="../week_10/week10.html">Week 10</a></li>
       </ul>
-    </div>
-  </header>
-  <div class="content">
-	  <h2>Week 7: Challenges to Music Curation:?</h2>
-<p>This weeks task was to edit the metadata from Week 5's MEI file. I first added the genre element to my MEI file.
-	Since I had already inputted the copyright classifications previously, I then inspected the MEI file with the revised metafat to see for any errors.
-	<br> The MEI file can be seen below.</p>
+     </div>
+   </header>
+   <div class="content">
+ 	  <h2>Week 7: Challenges to Music Curation</h2>
+ <p>This weeks task was to edit the metadata from Week 5's MEI file. I first added the genre element to my MEI file.
+ 	Since I had already inputted the copyright classifications previously, I then inspected the MEI file with the revised metafat to see for any errors.
+ 	<br> The MEI file can be seen below.</p>
 	  
-
 <hr>
 	  <h3>Rendering of Updated Metadata in MEI file</h3>	
 <br>	  
@@ -268,5 +259,4 @@ mei-worklist > mei-lyricst::before {
     <footer><p>Score rendering provided by <a href="http://www.verovio.org">Verovio</a>. Metadata rendered by <a href="https://github.com/TEIC/CETEIcean/"> CETEIcean</a>.</p></footer>
   </div>    
 </body>
-
 </html>

@@ -96,7 +96,10 @@ mei-editionstmt > mei-respstmt > mei-name {
 mei-editionstmt > mei-date {
 	display: none;
 	  }
-	  
+
+mei-pubstmt > mei-publisher {
+	display:block;}
+	
 mei-pubstmt > mei-publisher::before {
 	content: "Publishing Information";
 	font-weight: bold;
@@ -114,16 +117,14 @@ mei-pubstmt > mei-date {
 	  	
 mei-pubstmt > mei-date::before {
 	content:"Date Published: ";
-	font-weight: bold;
-	display:block;}
+	font-weight: bold;}
 	  
 mei-pubstmt > mei-availability > mei-userestrict::before {
-	content: "Copyright Instructions: "; }
+	content: "Copyright Instructions: ";
+	font-style: bold;}
 	  
 mei-pubstmt > mei-availability > mei-userestrict {
-	display: block;
-	font-style: bold;
-	  }
+	display: block;}
 	  
 mei-seriesstmt > mei-title::before {
 	content: "Series Title:";

@@ -7,6 +7,7 @@
     <titleStmt>
       <title>Sonata</title>
         <composer xml:id="composer1">Paul Dukas</composer>
+        <arranger xml:id="arranger1"> Paul Dukas </arranger>
         <respStmt>
           <resp>Encoded by</resp>
           <resp>Anmol Dhanda</resp>
@@ -50,8 +51,6 @@
       </application>
     </appInfo>    
   </encodingDesc>
-  <workList>
-  </workList>
 </meiHead>
    <music>
       <body>

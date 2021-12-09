@@ -26,7 +26,9 @@ text-align: center;}
 .week10-2 {position: relative;
 text-align: center;}
 	
-	
+.week4 {position: relative;
+text-align: center;}
+
 #matrix{float:right;}
 
 #histogram {width: 350px;
@@ -45,9 +47,6 @@ border: 1px solid black}
 .images>td {width:33%;}
 
 
-#week9 th, td:nth-child(1) {width: 10%; font-weight: bold}       
-#week9 td:nth-child(2) {width: 50%;}       
-       
 
 
  .nav ul {

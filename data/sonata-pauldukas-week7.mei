@@ -8,6 +8,7 @@
     <titleStmt>
       <title>Sonata</title>
         <composer xml:id="composer1">Paul Dukas</composer>
+        <arranger xml:id="arranger1">Paul Dukas</arranger>
         <respStmt>
           <resp>Encoded by:</resp>
           <name>Anmol Dhanda</name>
@@ -18,7 +19,7 @@
     <pubStmt>
       <date isodate="2021-11-09" type="encoding-date">2021-11-09</date>
         <publisher>
-        <corpName>University of Glasgow, Digital Media &amp; Information studies</corpName>
+        <corpName>University of Glasgow, Digital Media &amp; Information Studies</corpName>
         <address>
           <addrLine>
             <geogName>Glasgow</geogName>
@@ -28,7 +29,7 @@
       </publisher>
       <availability>
         <useRestrict auth.uri="https://creativecommons.org/licenses/by-nc-sa/4.0/" auth="Creative Commons">
-          Creative Commons Attribution 4.0 International,CC BY-NC-SA
+          Creative Commons Attribution 4.0 International, CC BY-NC-SA
         </useRestrict>
       </availability>
     </pubStmt>
@@ -52,6 +53,9 @@
     </appInfo>    
   </encodingDesc>
   <workList>
+   <creation>
+     <date>1899-1900</date>
+   </creation>
    <classification>
      <genre>Classical</genre>
    </classification>
